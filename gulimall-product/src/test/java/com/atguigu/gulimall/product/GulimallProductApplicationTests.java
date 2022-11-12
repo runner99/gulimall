@@ -21,7 +21,7 @@ public class GulimallProductApplicationTests {
     public void contextLoads() {
 
         BrandEntity brandEntity = new BrandEntity();
-        brandEntity.setName("威威");
+        brandEntity.setName("😂🤣❤🤦‍♀️🤦‍♂️");
         brandService.save(brandEntity);
         System.out.println("成功保存");
     }
